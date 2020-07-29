@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.Control{
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+.Control button{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    color: indigo;
+    background-color: transparent;
+    border: 3px solid indigo;
+}
+.Control button:hover{
+    background-color: ivory;
+    font-style: italic;
+    font-size: larger;
+    transition: color 1s;
+}
+.container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.StopWatch{
+    width: 600px;
+    color: indigo;
+    margin: 10px auto;
+    text-align: center;
+}
+label{
+    color: indigo;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px 20px 0px 20px;
+}
+.container > span h1{
+    color: indigo;
+}
